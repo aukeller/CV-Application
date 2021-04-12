@@ -4,9 +4,12 @@ import PracticalForm from './components/Practical';
 
 function App() {
   return (
-    <div>
+    <div className="main">
+      <h1 className="main-heading">CV Application</h1>
       <GeneralForm />
       <EducationForm />
+      <PracticalForm heading="Practical"/>
+      <PracticalForm />
       <PracticalForm />
     </div>
   );

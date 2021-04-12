@@ -1,0 +1,61 @@
+@font-face {
+    font-family: roboto-light;
+    src: url(./Roboto/Roboto-Thin.ttf);
+}
+
+body {
+    font-family: roboto-light;
+    background: #eee;
+}
+
+.main {
+    margin: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+    background: #fff; 
+}
+
+.main-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 60%;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.section form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.section form input {
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.section .sub-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-section input {
+    width: 45%;
+}
+
+.sub-section .date-range{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.date-range input {
+    width: 91%;
+}
